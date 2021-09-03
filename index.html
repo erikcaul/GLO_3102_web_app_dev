@@ -6,79 +6,60 @@
         <meta name="author" content="Eric Cogoluenhes">
         <meta name="description" content="lab 1">
         <title>My restaurant website</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
+        <div id="header">
             <h1>My restaurant Website</h1>
-            <nav class="nav-item">
-                <p>Home</p>
-                <p>Menu</p>
-                <p>Contact</p>
+            <nav>
+                <p class="nav-item">Home</p>
+                <p class="nav-item">Menu</p>
+                <p class="nav-item">Contact</p>
             </nav>
-        </header>
-        <section>
-            <h1>Repas 1</h1>
-            <img src="https://source.unsplash.com/650x880/?carpaccio">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
-            <button>Command here</button>
-        </section>
-        <section>
-            <h1>Repas 2</h1>
-            <img src="https://source.unsplash.com/650x880/?pizza">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
-            <button>Command here</button>
-        </section>
-        <section>
-            <h1>Repas 3</h1>
-            <img src="https://source.unsplash.com/650x880/?pastas">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
-            <button>Command here</button>
-        </section>
-        <section>
-            <h1>Repas 4</h1>
-            <img src="https://source.unsplash.com/650x880/?fish-food">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
-            <button>Command here</button>
-        </section>
-        <section>
-            <h1>Repas 5</h1>
-            <img src="https://source.unsplash.com/650x880/?steak">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
-            <button>Command here</button>
-        </section>
-        <section>
-            <h1>Repas 6</h1>
-            <img src="#">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
-            <button>Command here</button>
-        </section>
-        <section>
-            <h1>Repas 7</h1>
-            <img src="#">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
-            <button>Command here</button>
-        </section>
-        <section>
-            <h1>Repas 8</h1>
-            <img src="#">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
-            <button>Command here</button>
-        </section>
-        <section>
-            <h1>Repas 9</h1>
-            <img src="#">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
-            <button>Command here</button>
-        </section>
+        </div>
+        <div id="container">
+            <div class="item">
+                <h1>Carpaccio</h1>
+                <img class="item" src="https://source.unsplash.com/650x880/?carpaccio" alt="Carpaccio">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
+                <button>Command</button>
+            </div>
+            <div class="item">
+                <h1>Pizza</h1>
+                <img class="item" src="https://source.unsplash.com/650x880/?pizza" alt="Pizza">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
+                <button>Command</button>
+            </div>
+            <div class="item">
+                <h1>Pasta</h1>
+                <img class="item" src="https://source.unsplash.com/650x880/?pastas" alt="Pastas">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
+                <button>Command</button>
+            </div>
+            <div class="item">
+                <h1>Fish</h1>
+                <img class="item" src="https://source.unsplash.com/650x880/?fish-food" alt="Fish">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
+                <button>Command</button>
+            </div>
+            <div class="item">
+                <h1>Steak</h1>
+                <img class="item" src="https://source.unsplash.com/650x880/?steak" alt="Steak">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
+                <button>Command</button>
+            </div>
+            <div class="item">
+                <h1>Soup</h1>
+                <img class="item" src="https://source.unsplash.com/650x880/?soup" alt="Soup">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Nibh sit amet commodo nulla. In iaculis nunc sed augue.</p>
+                <button>Command</button>
+            </div>
+        </div>
     </body>
 </html>
